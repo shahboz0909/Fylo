@@ -466,7 +466,7 @@ header {
 .hero-section {
   background-color: #1B2330;
   padding-bottom: 90px;
-  background-image: url("../../img/bcgimg.svg");
+  background-image: url("../img/bcgimg.svg");
   background-repeat: no-repeat;
   background-position-x: calc(50%);
   background-position-y: calc(-31%);
