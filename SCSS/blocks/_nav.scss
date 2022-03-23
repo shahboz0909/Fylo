@@ -1,0 +1,18 @@
+.header-list {
+  width: 271px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav {
+  transition: all 0.5s ease;
+  text-decoration: none;
+  color: #fff;
+}
+.header-nav:hover {
+  -webkit-transform: scale(1.9);
+  transform: scale(1.9);
+  color: #63E1D9;
+  border-bottom: 2px solid #63E1D9;
+  padding-bottom: 5px;
+}

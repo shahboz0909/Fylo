@@ -1,0 +1,81 @@
+.files {
+  background-color:
+  #181F2B;
+}
+.files-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 880px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+.files-item {
+  margin-top: 95px;
+  width: 370px;
+  text-align: center;
+}
+
+
+.files-heading {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+.files-text {
+  margin: 0;
+  padding: 0;
+  margin-top: 9px;
+  font-family: 'OpenSans';
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+.files-windows {
+  width: 84px;
+  height: 78px;
+}
+.files-security {
+  width: 66px;
+  height: 84px;
+}
+.files-watch {
+  width: 84px;
+  height: 69px;
+}
+.files-file {
+  width: 90px;
+  height: 63px;
+}
+
+
+@include breakpoint-down(910px) {
+  .files-list {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+}
+@include breakpoint-down(500px) {
+  .files-list {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+  .files-item {
+    margin-top: 95px;
+    width: 190px;
+    text-align: center;
+  }
+}

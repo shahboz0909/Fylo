@@ -1,0 +1,74 @@
+.group {
+  padding-top: 170px;
+  background-color: #181F2B;
+  background-image: url("../../img/zapetaya.svg");
+  background-repeat: no-repeat;
+  // background-size: ;
+  background-position-x: calc(50% - 560px);
+  background-position-y: calc(50% - 30px);
+}
+.group-list {
+  width: 1160px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.group-item {
+  width: 360px;
+  padding: 40px 25px 26px 26px;
+  background-color: #202A3C;
+  box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+  border-radius: 4px;
+  color: #fff;
+}
+.group-box {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.text-wrapper {
+  margin-left: 8px;
+}
+
+.one-text {
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans';
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+}
+.two-text {
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
+  font-family: 'OpenSans';
+  font-size: 7px;
+  line-height: 10px;
+  letter-spacing: 0.5px;
+}
+.group-text {
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans';
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.0px;
+}
+
+@include breakpoint-down(375px) {
+  .group-list {
+    width: 280px;
+    flex-direction: column;
+  }
+  .group-item {
+    width: 280px;
+  }
+  .group-item ~ .group-item {
+    margin-top: 24px;
+  }
+}
